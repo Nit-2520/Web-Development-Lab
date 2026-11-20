@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biography</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Biography</h1>
+        <p>Welcome to my personal webpage</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a B.Tech Computer Science
+                student interested in Artificial Intelligence,
+                technology, programming and web development.
+            </p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p>
+                Currently pursuing Bachelor of Technology
+                in Computer Science and Engineering (AI).
+            </p>
+        </section>
+
+        <section>
+            <h2>My Interests</h2>
+            <ul>
+                <li>Programming</li>
+                <li>Artificial Intelligence</li>
+                <li>Web Development</li>
+                <li>Learning New Technologies</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>My Goals</h2>
+            <p>
+                My goal is to improve my technical skills,
+                build useful projects and explore new
+                opportunities in technology.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Biography. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

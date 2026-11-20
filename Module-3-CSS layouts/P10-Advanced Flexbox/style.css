@@ -1,1 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header using Flexbox */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 8%;
+    background-color: #172554;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.navbar a,
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.footer a:hover {
+    color: #facc15;
+}
+
+.header-button,
+.button {
+    background-color: #facc15;
+    color: #172554;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content */
+main {
+    flex: 1;
+}
+
+.hero {
+    min-height: 350px;
+    background-color: #e0e7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #172554;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.section {
+    padding: 55px 8%;
+    text-align: center;
+}
+
+.section h2 {
+    color: #172554;
+    margin-bottom: 20px;
+}
+
+/* Project cards */
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.project-card {
+    flex: 1 1 220px;
+    max-width: 300px;
+    padding: 25px;
+    background-color: #f1f5f9;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+
+/* Footer using Flexbox */
+.footer {
+    background-color: #172554;
+    color: white;
+    padding: 35px 8% 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-brand {
+    flex: 1 1 200px;
+}
+
+.footer-links,
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid #475569;
+    margin-top: 25px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 650px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links,
+    .social-links {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}

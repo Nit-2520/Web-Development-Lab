@@ -1,0 +1,125 @@
+
+/* CSS Design Tokens */
+
+:root {
+    /* Colors */
+    --primary-color: #2563eb;
+    --secondary-color: #1e293b;
+    --accent-color: #f59e0b;
+    --background-color: #f8fafc;
+    --text-color: #334155;
+    --white: #ffffff;
+
+    /* Typography */
+    --font-family: Arial, sans-serif;
+    --heading-size: 32px;
+    --subheading-size: 24px;
+    --body-size: 16px;
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+
+    /* Border Radius */
+    --border-radius: 10px;
+}
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: var(--body-size);
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-align: center;
+    padding: var(--spacing-large);
+}
+
+/* Typography */
+
+h1 {
+    font-size: var(--heading-size);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: var(--subheading-size);
+    color: var(--secondary-color);
+}
+
+h3 {
+    color: var(--primary-color);
+}
+
+p {
+    font-size: var(--body-size);
+}
+
+/* Container */
+
+.container {
+    background-color: var(--white);
+    margin: var(--spacing-large);
+    padding: var(--spacing-large);
+    border-radius: var(--border-radius);
+}
+
+/* Color Palette */
+
+.color-box {
+    padding: var(--spacing-medium);
+    margin: var(--spacing-small) 0;
+    border-radius: var(--border-radius);
+    color: var(--white);
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent {
+    background-color: var(--accent-color);
+}
+
+/* Button */
+
+.btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: var(--spacing-small) var(--spacing-large);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: var(--body-size);
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-align: center;
+    padding: var(--spacing-medium);
+}

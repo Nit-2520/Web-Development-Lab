@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: #172554;
+    color: white;
+    padding: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #1e3a8a;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #facc15;
+}
+
+/* Newspaper Grid */
+.newspaper-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-news {
+    grid-column: span 2;
+    background-color: white;
+    padding: 25px;
+    border-top: 5px solid #1d4ed8;
+}
+
+.main-news h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.category {
+    color: #1d4ed8;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.news-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.news-card h2 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+    background-color: #dbeafe;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #172554;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .newspaper-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main-news {
+        grid-column: span 2;
+    }
+
+    .sidebar {
+        grid-column: span 2;
+        grid-row: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .newspaper-grid {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .main-news,
+    .sidebar {
+        grid-column: span 1;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Advanced Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">MyPortfolio</div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="header-button">Hire Me</a>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hello, I'm a CSE-AI Student</h1>
+                <p>
+                    I am exploring artificial intelligence, technology,
+                    programming and web development.
+                </p>
+                <a href="#projects" class="button">View My Projects</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science and Engineering student interested
+                in learning new technologies and developing creative solutions.
+            </p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+
+            <div class="project-container">
+                <article class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal website created using HTML and CSS.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Calculator</h3>
+                    <p>A simple calculator project for basic operations.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>AI Project</h3>
+                    <p>An introductory project exploring artificial intelligence.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Email: example@gmail.com</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>MyPortfolio</h3>
+                <p>Learning, building and growing with technology.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/">GitHub</a>
+                <a href="https://www.linkedin.com/">LinkedIn</a>
+            </div>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 MyPortfolio. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>

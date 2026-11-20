@@ -1,0 +1,133 @@
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
+}
+
+/* Sticky Navigation Bar */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 30px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #60a5fa;
+}
+
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    background-color: #dbeafe;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    color: #1d4ed8;
+}
+
+/* General Sections */
+
+.section {
+    padding: 40px;
+    scroll-margin-top: 80px;
+}
+
+/* Card Container */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Project Cards */
+
+.card {
+    position: relative;
+    width: 250px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Overlay Badge */
+
+.badge {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+
+    background-color: #ef4444;
+    color: white;
+
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section {
+        padding: 25px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

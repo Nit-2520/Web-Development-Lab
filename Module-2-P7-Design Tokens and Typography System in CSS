@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Tokens and Typography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Design System</h1>
+        <p>A simple demonstration of CSS design tokens and typography.</p>
+    </header>
+
+    <main>
+
+        <section class="container">
+            <h2>Typography System</h2>
+
+            <h1>Main Heading</h1>
+            <h2>Section Heading</h2>
+            <h3>Subheading</h3>
+
+            <p>
+                This is a sample paragraph demonstrating
+                the typography system using CSS custom properties.
+            </p>
+        </section>
+
+        <section class="container">
+            <h2>Color Palette</h2>
+
+            <div class="color-box primary">Primary Color</div>
+            <div class="color-box secondary">Secondary Color</div>
+            <div class="color-box accent">Accent Color</div>
+        </section>
+
+        <section class="container">
+            <h2>Button Design</h2>
+            <button class="btn">Explore More</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Design System</p>
+    </footer>
+
+</body>
+</html>

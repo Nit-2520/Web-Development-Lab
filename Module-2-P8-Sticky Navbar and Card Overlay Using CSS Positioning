@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navbar and Card Overlay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h2>My Portfolio</h2>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <section id="home" class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Exploring Web Development and CSS Positioning.</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science student interested
+                in programming, technology and web development.
+            </p>
+        </section>
+
+        <!-- Project Card -->
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+
+            <div class="card-container">
+
+                <article class="card">
+                    <span class="badge">New</span>
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A personal portfolio created using
+                        HTML and CSS.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Calculator</h3>
+                    <p>
+                        A simple calculator application.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Email: example@gmail.com</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
